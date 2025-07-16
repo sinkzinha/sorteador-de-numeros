@@ -7,7 +7,7 @@ function sortear() {
     let numero; 
 
     let intervalo = numeroLimite - numeroInicial + 1;
-    if (quantidadeDeNumeros < intervalo ) {
+    if (quantidadeDeNumeros > intervalo ) {
         alert('Erro: a quantidade de números solicitada é maior do que o intervalo disponível.');
         return;
     }
